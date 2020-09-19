@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/registerUserform.css">
+        <script src="javascriptExam/jquery-3.5.1.min.js"></script>
+    </head>
+    <body >
+        <script defer src="registerUserForm.js"></script>
+        <div class="registerForm">
+            <form id="formRegister" onsubmit="log(event)">
+                <label for="name">name :</label><br>
+                <input type="text" id="name" ><br><br><br>
+                <label for="surname">surname :</label><br>
+                <input type="text" id="surname" ><br><br><br>
+                <label for="age">age :</label><br>
+                <input type="number" id="age" min="18" max="120" ><br><br><br>
+                <label>country :</label><br>
+                <select name="country" id="country">
+                    <option value="Armenia">Armenia</option>
+                    <option value="Zymbwabwey">Zymbwabwey</option>
+                    <option value="Russia">Russia</option>
+                    <option value="America">America</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="New Zeland">New Zeland</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Argentina">Argentina</option>
+                </select><br><br><br>
+                <label for="gender">gender :</label><br>
+                <input type="radio" name="gender" value="male">male<br>
+                <input type="radio" name="gender" value="female">female<br>
+                <input type="radio" name="gender" value="other">other<br><br>
+                <label for="phone">phone :</label><br>
+                <input type="text" id="phone" size="15" ><br><br><br>
+                <label for="email">email :</label><br>
+                <input type="email" id="email" ><br><br>
+                <input type="file" onchange="readFile(this)"><br><br>
+                <input type="submit" >
+            </form>
+        </div>
+    </body>
+</html>

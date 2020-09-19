@@ -1,0 +1,14 @@
+body {
+    background-size: cover;
+    background-image: url("skvidvard1.jpg");
+    background-repeat: no-repeat;
+}
+.registerForm {
+    position: relative;
+    width: 50%;
+    left: 15%;
+    top: 1.5em;
+}
+#formRegister {
+    position: relative;
+}
